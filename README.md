@@ -1,24 +1,5 @@
-# README
+[![Code Climate](https://codeclimate.com/github/kompakt-solutions/currency-converter/badges/gpa.svg)](https://codeclimate.com/github/kompakt-solutions/currency-converter)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app is a simple currency converter.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+It is still a work in progress.
