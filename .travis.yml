@@ -7,11 +7,17 @@ addons:
   code_climate:
     repo_token: afb84adc93e48cbb257f398825110b0284c584d083efad8bffdd6820f434c034
 
+services:
+  - postgresql
+
 before_install:
   - gem update --system
   - gem --version
   - gem update bundler
   - gem install rails
+
+before_script:
+  - cp config/database.yml.travis config/database.yml
 
 scrit: rspec
 
