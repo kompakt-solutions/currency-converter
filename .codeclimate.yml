@@ -40,4 +40,4 @@ exclude_paths:
 - spec/
 - test/
 - vendor/
-- app/assets/public/
+- public/assets/
