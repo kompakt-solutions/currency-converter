@@ -3,10 +3,6 @@ language: ruby
 rvm:
   - 2.4.1
 
-branches:
-  only:
-  - master
-
 addons:
   code_climate:
     repo_token: afb84adc93e48cbb257f398825110b0284c584d083efad8bffdd6820f434c034
